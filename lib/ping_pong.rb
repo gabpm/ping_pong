@@ -3,7 +3,12 @@ class Fixnum
     array =[]
     range = (1..self)
     range.each() do |n|
-      array.push(n)
+      if n % 3 == 0
+        array.push("ping")
+      elsif
+      else
+        array.push(n)
+      end
     end
     array
   end
